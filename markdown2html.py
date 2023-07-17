@@ -24,7 +24,7 @@ def convert_markdown_to_html(markdown_file, output_file):
     with open(markdown_file, 'r') as f:
         markdown_text = f.read()
 
-    html = markdown.markdown(markdown_text)
+    html = markdown.markdown(markdown_text, extensions=['markdown.extensions.extra'])
 
     with open(output_file, 'w') as f:
         f.write(html)
