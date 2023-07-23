@@ -611,5 +611,5 @@
     }
 
     .tag-list li::after {
-        content: "";
+        content: " ";
     }
