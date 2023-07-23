@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .box1 {
+    background-color: #ff4e50;
+  }
+  
+  .box2 {
+    background-color: #fc913a;
+  }
+  
+  .box3 {
+    background-color: #f9d423;
+  }
+  
+  .box4 {
+    background-color: #66bf3c;
+  }
+  
+  .box5 {
+    background-color: #3b5998;
+  }
