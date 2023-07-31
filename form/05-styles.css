@@ -727,7 +727,7 @@
       
       .form-group:focus-within {
         background-color: var(--color-light-grey);
-        transition: 0.3s;
+        transition: .3s;
       }
     
       .form-field-container {
@@ -751,5 +751,5 @@
 
       .form-help .form-group:focus-within {
         max-height: 20rem;
-        margin: 0.4rem 0 0;
+        margin: .4rem 0 0;
       }
