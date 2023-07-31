@@ -719,6 +719,9 @@
         font-size: var(--font-size-small);
       }
 
+    /* Form group
+    ============================= */
+
       .form-group {
         padding: 1rem;
         margin: 0;
@@ -729,6 +732,9 @@
         background-color: var(--color-light-grey);
         transition: .3s;
       }
+
+    /* Form field
+    ============================= */
     
       .form-field-container {
         position: relative;
@@ -737,6 +743,9 @@
       .form-field-icon {
         font-style: normal;
       }
+
+    /* Form help
+    ============================= */
 
       .form-group .form-help {
         margin: 0;
