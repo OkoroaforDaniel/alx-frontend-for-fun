@@ -1,0 +1,19 @@
+/* Using extended */
+
+%font {
+    font-size: 12px;
+  }
+  
+  .info {
+    @extend %font;
+  }
+  
+  .success {
+    @extend %font;
+    color: #00FF00;
+  }
+  
+  .warning {
+    @extend %font;
+    color: #FF0000;
+  }

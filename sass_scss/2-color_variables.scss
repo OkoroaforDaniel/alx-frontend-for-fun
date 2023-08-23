@@ -1,0 +1,13 @@
+/* Use variables for two colors  */
+$grey: #3D3D3D;
+$silver: #6D6D6D;
+
+body {
+  color: $grey;
+  background-color: $silver; }
+
+p {
+  color: $grey; }
+
+h2 {
+  background-color: $silver; }

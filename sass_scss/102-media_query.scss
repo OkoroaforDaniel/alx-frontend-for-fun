@@ -1,0 +1,19 @@
+/* Media query 1 */
+@use 'sass:math';
+
+$font: 20px;
+
+h1 {
+  font-size: $font;
+  @for $i from 1 through 3 {
+    $width: 960 / $i + px;
+    @media screen and (max-width: $width) {
+      font-size: $font - ($i * 2);
+      @if $i == 3 {
+        &.small {
+          color: #1D1D1D;
+        }
+      }
+    }
+  }
+}
